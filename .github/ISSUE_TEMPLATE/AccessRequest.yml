@@ -58,6 +58,6 @@ body:
       options:
         - label: Terms and Condiitions      
           required : true
-          readonly : true
+          readOnly : true
     validations:
       required : true 
