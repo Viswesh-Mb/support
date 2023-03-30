@@ -45,6 +45,7 @@ body:
 #       required: true
   - type: textarea
     id: Additional-Comments
+    readonly: true
     attributes:
       label: Additional Comments
       description: Any additional comments or attachments.
