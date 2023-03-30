@@ -58,5 +58,6 @@ body:
       options:
         - label: Terms and Condiitions      
           required : true
+          readonly : true
     validations:
-      required: true 
+      required : true 
