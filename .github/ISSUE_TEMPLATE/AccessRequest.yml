@@ -60,19 +60,3 @@ body:
           required : true          
     validations:
       required : true 
-    admin: {
-       readOnly: true,
-    },
-    access: {
-      create: () => false,
-    },
-    hooks: {
-      beforeChange: [
-        (): undefined => undefined,
-      ],
-      afterRead: [
-        ({ data }): string => {
-          return getUrl(String(data.filename))
-        }
-      ]
-    }
