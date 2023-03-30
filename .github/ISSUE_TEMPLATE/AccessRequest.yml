@@ -44,8 +44,7 @@ body:
 #     validations:
 #       required: true
   - type: textarea
-    id: Additional-Comments
-    readonly: true
+    id: Additional-Comments    
     attributes:
       label: Additional Comments
       description: Any additional comments or attachments.
@@ -54,6 +53,7 @@ body:
       required: false 
   - type: checkboxes
     id : Agreement-Version1
+    readOnly: true
     attributes:
       label: Legal Disclaimer                      
       options:
