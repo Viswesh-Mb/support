@@ -55,7 +55,7 @@ body:
     id : Agreement-Version1
     attributes:
       label: Legal Disclaimer                      
-      --options:
-        -label: Terms and Condiitions        
+      options:
+        - label: Terms and Condiitions        
     validations:
       required: true
