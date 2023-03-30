@@ -51,3 +51,10 @@ body:
       placeholder: Comments!
     validations:
       required: false 
+  - type: checkboxes
+    id : Agreement-Version1
+    attributes:
+      label: Legal Disclaimer                      
+      options:
+        -label: Terms and Condiitions
+         required: true
