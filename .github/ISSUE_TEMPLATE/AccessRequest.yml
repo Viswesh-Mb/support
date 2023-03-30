@@ -57,7 +57,6 @@ body:
       label: Legal Disclaimer                      
       options:
         - label: Terms and Condiitions      
-          required : true
-          read-only : true
+          required : true          
     validations:
       required : true 
