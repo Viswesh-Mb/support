@@ -52,10 +52,10 @@ body:
     validations:
       required: false 
   - type: checkboxes
-    id : Agreement-Version1
-    readOnly: true
+    id : Agreement-Version1    
     attributes:
-      label: Legal Disclaimer                      
+      label: Legal Disclaimer
+      readOnly: true
       options:
         - label: Terms and Condiitions      
           required : true          
