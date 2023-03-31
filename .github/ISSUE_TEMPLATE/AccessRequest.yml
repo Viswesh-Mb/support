@@ -30,7 +30,6 @@ body:
       label: Environment
       description: Which environment are you requesting access for?
       options:
-        - Sandbox
         - Demo
     validations:
       required: true
@@ -54,10 +53,10 @@ body:
   - type: checkboxes
     id : DataPrivacy    
     attributes:
-      label: By clicking this box, I acknowledge that by registering to use and/or using the SDR-RI, I agree to Terms of Use and acknowledge the collection and use of my personal data for the purposes set out in the Privacy Policy.      
+      label: Terms of Use and Privacy Policy
       options:
-        - label: I agree to the [Terms of Use and Privacy Policy](https://viswesh-mb.github.io/support/TermsAndConditions.html)         
+        - label: I agree to the [Terms of Use and Privacy Policy](https://transcelerate.github.io/ddf-sdr-support/TermsandCondition.html).     
           required : true          
     validations:
       required : true     
-    
+   
