@@ -55,7 +55,7 @@ body:
     attributes:
       label: Terms of Use and Privacy Policy
       options:
-        - label: I agree to the [Terms of Use and Privacy Policy](https://transcelerate.github.io/ddf-sdr-support/TermsandCondition.html).     
+        - label: I agree to the [Terms of Use and Privacy Policy](https://viswesh-mb.github.io/support//TermsAndConditions.html).     
           required : true          
     validations:
       required : true     
