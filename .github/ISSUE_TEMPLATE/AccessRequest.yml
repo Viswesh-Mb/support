@@ -60,4 +60,8 @@ body:
           required : true          
     validations:
       required : true 
- 
+    title: Test Release and Updates 
+    name: Developed and maintained by Testing Team 
+    description: <a href="https://github.com/Viswesh-Mb/support/blob/main/TermsAndConditions.html">Testing Landing Page</a> 
+    github: 
+	    is_project_page: false
