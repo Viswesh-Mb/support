@@ -57,7 +57,7 @@ body:
       label: Terms of Use and Privacy Policy
       description : <a href="https://viswesh-mb.github.io/support/TermsAndConditions.html" target="_blank">Terms of Use and Privacy Policy</a>
       options:
-        - label: I agree to the Terms of Use and Privacy Policy [Link](https://viswesh-mb.github.io/support/TermsAndConditions.html)          
+        - label: I agree to the Terms of Use and Privacy Policy [Link](https://viswesh-mb.github.io/support/TermsAndConditions.html){:target="_blank" rel="noopener"}         
           required : true          
     validations:
       required : true     
