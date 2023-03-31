@@ -52,15 +52,6 @@ body:
     validations:
       required: false 
   - type: checkboxes
-    id : Agreement-Version1    
-    attributes:
-      label: Legal Disclaimer      
-      options:
-        - label: Terms and Condiitions      
-          required : true          
-    validations:
-      required : true 
-  - type: checkboxes
     id : DataPrivacy
     attributes :
       label: Terms of Use and Privacy Policy
