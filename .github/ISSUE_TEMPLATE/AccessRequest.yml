@@ -56,7 +56,7 @@ body:
     attributes:
       label: Terms of Use and Privacy Policy      
       options:
-        - label: I agree to the Terms of Use and Privacy Policy      
+        - label: I agree to the Terms of Use and Privacy Policy (Link)[www.google.com]     
           required : true          
     validations:
       required : true 
