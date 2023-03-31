@@ -56,7 +56,7 @@ body:
     attributes:
       label: Terms of Use and Privacy Policy      
       options:
-        - label: I agree to the Terms of Use and Privacy Policy [Link](www.google.com)
+        - label: I agree to the Terms of Use and Privacy Policy [Link](https://github.com/Viswesh-Mb/support/blob/main/TermsAndConditions.html)
           required : true          
     validations:
       required : true 
