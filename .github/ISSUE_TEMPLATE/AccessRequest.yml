@@ -54,8 +54,9 @@ body:
   - type: checkboxes
     id : DataPrivacy    
     attributes:
-      label: Terms of Use and Privacy Policy   
-      description: <a href="https://github.com/Viswesh-Mb/support/blob/main/TermsAndConditions.html">Testing Landing Page</a> 
+      label: <a href="https://github.com/Viswesh-Mb/support/blob/main/TermsAndConditions.html">Terms of Use and Privacy Policy</a>         
+      github: 
+       is_project_page: false
       options:
         - label: I agree to the Terms of Use and Privacy Policy [Link](https://github.com/Viswesh-Mb/support/blob/main/TermsAndConditions.html)+          
           required : true          
