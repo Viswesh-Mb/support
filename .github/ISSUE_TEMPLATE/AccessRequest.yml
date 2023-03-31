@@ -60,3 +60,20 @@ body:
           required : true          
     validations:
       required : true 
+  - type: checkboxes
+    id: DataPrivacy
+    attributes:
+      label: Terms of Use and Privacy Policy
+      description: By clicking this box, I acknowledge that by registering to use and/or using the SDR-RI, I agree to Terms of Use and acknowledge the collection and use of my personal data for the purposes set out in the Privacy Policy.
+      options:
+        -label: I agree to the Terms of Use and Privacy Policy
+         required: true
+  - type: checkboxes
+    id: SecondaryUse
+    attributes:
+      label: Secondary Use of Data
+      description: By clicking this box, blah blah .
+      options:
+        -label: I agree to the potential secondary uses of my data.
+         required: false     
+ 
