@@ -54,10 +54,9 @@ body:
   - type: checkboxes
     id : DataPrivacy    
     attributes:
-      label: Terms of Use and Privacy Policy
-      description : <a href="https://viswesh-mb.github.io/support/TermsAndConditions.html" target="_blank">Terms of Use and Privacy Policy</a>
+      label: Terms of Use and Privacy Policy      
       options:
-        - label: I agree to the Terms of Use and Privacy Policy [Link](https://viswesh-mb.github.io/support/TermsAndConditions.html){:target="_blank" rel="noopener"}         
+        - label: I agree to the [Terms of Use and Privacy Policy](https://viswesh-mb.github.io/support/TermsAndConditions.html)         
           required : true          
     validations:
       required : true     
